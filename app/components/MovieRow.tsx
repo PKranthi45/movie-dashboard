@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { Movie } from '../types'
+import { Movie } from '../../types/index'
 
 
 export default function MovieRow({ movies, categoryTitle }: { movies: Movie[]; categoryTitle: string }) {
